@@ -1,0 +1,5 @@
+WEBP vs JPEG preview quality
+
+WEBP quality=85, PSNR=40.027, size=333M
+WEBP quality=80, PSNR=38.738, size=264M  !!!
+JPEG quality=80: PSNR=39.072, size=416M

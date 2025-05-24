@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+
+  <div class="main-container">
+    <div class="sidebar" id="directoryTree">Loading folders...</div>
+
+    <div class="content">
+      <div class="pagination">
+        <button id="prevBtn" onclick="prevPage()">Previous</button>
+        <span class="page-label" id="pageLabel">Page 1</span>
+        <input type="range" id="pageSlider" min="1" value="1">
+        <button id="nextBtn" onclick="nextPage()">Next</button>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
